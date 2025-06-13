@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Patel5d2_BMICalculator2.HealthRecommendationsPage"
+             Title="Health Recommendations">
+    <VerticalStackLayout Spacing="10" Padding="30" VerticalOptions="FillAndExpand">
+        <Label Text="Recommendations" FontSize="32" FontAttributes="Bold" HorizontalOptions="Center" Margin="0,20"/>
+
+        <Frame VerticalOptions="CenterAndExpand" Padding="20" CornerRadius="10">
+            <ScrollView>
+                <Label x:Name="RecommendationLabel" 
+                       Text="Loading recommendations..." 
+                       FontSize="Medium" 
+                       LineHeight="1.2"/>
+            </ScrollView>
+        </Frame>
+
+        <VerticalStackLayout VerticalOptions="EndAndExpand" Spacing="10">
+            <Button Text="Back to Results" FontSize="Medium" BackgroundColor="DimGray" Clicked="OnBackToResultsClicked"/>
+            <Button Text="Back to Home" FontSize="Medium" Clicked="OnBackToHomeClicked"/>
+        </VerticalStackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>
