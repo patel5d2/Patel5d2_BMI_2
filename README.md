@@ -343,7 +343,7 @@ This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.t
 - 🎓 Student specializing in Cybersecurity & Software Development
 - 💼 3+ Years of coding experience
 - 🔍 Passionate about creating user-friendly applications
-- 📍 Based in [Your Location]
+- 📍 Based in Ohio
 
 ## 🙏 Acknowledgments
 
